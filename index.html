@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Oreo</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="mediaquerie.css">
+	<meta name="viewport" content="width=device=width, initial scale=1.0">
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+		<h1><img src="images/logo.png" alt="Oreo" width="150"></h1>
+		<nav id="menu">
+			<a href="#menu" class="mobile">☰</a>
+		<div class="desktop">
+			<a href="#">Shop </a>
+			<a href="#">Create! </a>
+			<a href="#">About Us </a>
+			<a href="#">Sign in </a>
+		</div>
+		</nav>
+		 </div>
+	</header>
+	<main class="wrapper">
+		<h2>What we're craving</h2>
+		<ul class="autoplay">
+			<li>
+				<img src="images/crunchy bites.png">
+				<h3>crunchy bites</h3>
+				<p>$1.50</p>
+			</li>
+			<li>
+				<img src="images/double stuf.png">
+				<h3>double stuf</h3>
+				<p>$1.50</p>
+			</li>
+			<li>
+				<img src="images/golden.png">
+				<h3>golden</h3>
+				<p>$3.50</p>
+			</li>
+			<li>
+				<img src="images/thins.png">
+				<h3>thins</h3>
+				<p>$4.50</p>
+			</li>
+			<li>
+				<img src="images/white fudge.png">
+				<h3>white fudge</h3>
+				<p>$8.50</p>
+			</li>
+		</ul>
+		<h3> Not what you are craving? We have more just for you </h3>
+		<a href="#">Go to shop</a>
+	</main>
+	<footer>
+		<div class="wrapper">
+		<article>
+			<h3>Contact</h3>
+			<p>Call 555-12-44</p>
+			<p>Monday thru friday</p>
+			<p>8AM-9PM</p>
+		</article>
+		<article>
+			<img src="images/logo.png" alt="Oreo" width="150">
+			<ul>
+				<li><a href="#" id="fb">Facebook</a></li>
+				<li><a href="#" id="in">Instagram</a></li>
+				<li><a href="#" id="tw">Twitter</a></li>
+				<li><a href="#" id="tk">Tiktok</a></li>
+			</ul>
+		</article>
+		<article>
+			<p>All right reserved 2021</p>
+		</article>
+		</div>
+	</footer>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script> 
+	$('.autoplay').slick({
+	  slidesToShow: 3,
+	  slidesToScroll: 1,
+	  autoplay: true,
+	  autoplaySpeed: 2000,
+	});
+	</script>
+</body>
+</html>

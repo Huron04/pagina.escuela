@@ -1,0 +1,14 @@
+@media print {
+	header { display: none;}
+}
+ @media screen and (max-width: 600px) {
+ 	.wrapper{
+ 		width: 100%
+ 	}
+
+ 	header{
+ 		height: 100vh;
+ 		background-size: 250%, 125%;
+ 		background-position: top center, center 25vw ;
+ 	}
+ }
